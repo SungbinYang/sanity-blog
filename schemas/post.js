@@ -39,7 +39,7 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: "createdAy",
+      name: "createdAt",
       title: "Created at",
       type: "datetime",
       validation: (Rule) => Rule.required(),
